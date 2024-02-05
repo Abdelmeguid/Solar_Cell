@@ -243,7 +243,7 @@
           "show_account": false,
           "show_header_cart": true,
           "header_icon_type": "icon",
-          "show_category_menu": false,
+          "show_category_menu": true,
           "category_heading": "All categories",
           "category_menu": "main-menu",
           "margin_bottom": 0,
