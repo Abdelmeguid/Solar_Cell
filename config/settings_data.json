@@ -221,10 +221,11 @@
           "128c2167-509e-4f28-9caf-66ef801f1a17"
         ],
         "settings": {
-          "page_full_width": false,
-          "page_full_width_spacing": false,
+          "page_full_width": true,
+          "page_full_width_spacing": true,
           "color_scheme": "accent-2",
-          "logo_width": 105,
+          "logo": "shopify:\/\/shop_images\/isk.jpg",
+          "logo_width": 100,
           "logo_position": "middle-left",
           "menu_alignment": "center",
           "menu": "main-menu",
