@@ -426,7 +426,7 @@
         "settings": {
           "color_scheme": "accent-1",
           "modal_bg_opacity": "0.9",
-          "enable_newsletter_modal": true,
+          "enable_newsletter_modal": false,
           "cookie_expires": 1,
           "cookie_modal_delay": "5000",
           "block_text_align": "text-start",
