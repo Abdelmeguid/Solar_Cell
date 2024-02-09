@@ -99,7 +99,7 @@
         "color_scheme": "accent-2",
         "image_ratio": "adapt",
         "show_secondary_image": true,
-        "show_vendor": true,
+        "show_vendor": false,
         "show_new_tag": false,
         "show_rating": true,
         "padding_top": 80,
