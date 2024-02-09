@@ -17,7 +17,7 @@
     Usage:
     {% render 'card-product', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
-{%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}  
+{% comment %} {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}  
 {%- if card_product and card_product != empty -%}
   {%- liquid
     assign ratio = 1
@@ -29,7 +29,7 @@
     if ratio == 0 or ratio == nil
       assign ratio = 1
     endif
-  -%}
+  -%} {% endcomment %}
   <div class="card-wrapper underline-links-hover">
     <div class="card
       card--{{ settings.card_style }}
