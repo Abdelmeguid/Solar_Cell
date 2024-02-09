@@ -30,7 +30,7 @@
       assign ratio = 1
     endif
   -%}
-  <div class="card-wrapper underline-links-hover">
+  <div class="card-wrapper ">
     <div class="card
       card--{{ settings.card_style }}
       {% if card_product.featured_media %} card--media{% else %} card--text{% endif %}
@@ -44,7 +44,7 @@
         {%- if card_product.featured_media -%}
           <div class="card__media">
             
-            <div class="media media--transparent media--hover-effect">
+            <div class="media media--transparent ">
             
              <a href="{{ card_product.url }}">
            {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
@@ -369,7 +369,7 @@
     </div>      
   </div>
 {%- else -%}
-  <div class="card-wrapper underline-links-hover">
+  <div class="card-wrapper ">
     <div class="card
       card--{{ settings.card_style }}
       card--text
