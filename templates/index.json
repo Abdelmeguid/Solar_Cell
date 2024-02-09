@@ -26,6 +26,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/slider-3.webp",
+            "mobile_image": "shopify:\/\/shop_images\/4.jpg",
             "heading": "De weg naar duurzame energie zal efficiënt zijn",
             "heading_size": "h1",
             "subheading": "",
