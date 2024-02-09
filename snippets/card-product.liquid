@@ -112,7 +112,7 @@
 <!--               <span class="badge badge--sale"><span class="gift-tag badge__text">Sale</span></span> -->
             {%- endif -%}
           </div>
-           <ul class="product-icons right-aligned">          
+           {% comment %} <ul class="product-icons right-aligned">          
         {%- if settings.enable_compare -%}
         <li><dtx-compare><a href="javascript:void(0);" class="add-compare" data-product_handle="{{ card_product.handle }}"></a></dtx-compare>
           <tooltip class="tooltip">{{ 'products.compare.add_to_compare' | t }}</tooltip>
@@ -210,7 +210,7 @@
             <tooltip class="tooltip">{{ 'products.wishlist.addToWishList' | t }}</tooltip>
           </li>        
         {%- endif -%} 
-        </ul> 
+        </ul>  {% endcomment %}
           {%- if settings.button_style == "button" -%}
           <div class="quick-add button-quick-add">
              {%- if settings.enable_quickview -%}
