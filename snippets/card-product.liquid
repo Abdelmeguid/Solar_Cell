@@ -122,7 +122,7 @@
            {%- if settings.button_style == "icon" -%}
            {%- if settings.enable_quickview -%}
         <li>          
-             <modal-opener data-modal="#QuickAdd-{{ card_product.id }}">
+             {% comment %} <modal-opener data-modal="#QuickAdd-{{ card_product.id }}">
                 <button
                   id="{{ product_form_id }}-submit"
                   type="submit"
@@ -141,8 +141,8 @@
                     </svg>
                   </div>
                 </button>
-              </modal-opener>
-              <quick-add-modal id="QuickAdd-{{ card_product.id }}" class="quick-add-modal" data-aos="flip-left">
+              </modal-opener> {% endcomment %}
+              {% comment %} <quick-add-modal id="QuickAdd-{{ card_product.id }}" class="quick-add-modal" data-aos="flip-left">
                 <div
                   role="dialog"
                   aria-label="{{ 'products.product.choose_product_options' | t: product_name: card_product.title | escape }}"
@@ -161,7 +161,7 @@
                   </button>
                   <div id="QuickAddInfo-{{ card_product.id }}" class="quick-add-modal__content-info"></div>
                 </div>
-              </quick-add-modal>
+              </quick-add-modal> {% endcomment %}
              <tooltip class="tooltip">{{ 'products.product.quick_buy' | t }}</tooltip>
         </li>
              {%-  endif -%}
