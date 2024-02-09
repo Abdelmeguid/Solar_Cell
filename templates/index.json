@@ -91,7 +91,7 @@
         "button_link": "",
         "button_style_secondary": false,
         "column_alignment": "center",
-        "collection": "home-collections",
+        "collection": "frontpage",
         "products_to_show": 3,
         "columns_desktop": 3,
         "show_view_all": true,
