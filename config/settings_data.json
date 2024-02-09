@@ -439,7 +439,7 @@
         "settings": {
           "page_full_width": false,
           "page_full_width_spacing": true,
-          "top_bar_color_scheme": "background-1",
+          "top_bar_color_scheme": "inverse",
           "disable_topbar": false,
           "disable_topbar_mobile": true,
           "header_mail": "info@example.com",
