@@ -8,16 +8,16 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slider-1_4b964734-d2c1-45d0-9016-e2dffb5f7ccf.webp",
             "heading": "Zonne-energie zal zeker in onze toekomst aanwezig zijn",
-            "heading_size": "h1",
-            "subheading": "victory is the vectory",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "heading_size": "h2",
+            "subheading": "Bespaar geld en krijg schone energie",
+            "text": "snelle instillatie, continue ondersteuning",
             "button_label": "Learn More",
             "link": "shopify:\/\/collections",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "left",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 20,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
