@@ -39,7 +39,7 @@
       {% if card_product.featured_media == nil and settings.card_style == 'card' %} ratio{% endif %}"
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
-{% comment %}    
+   
       <div class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
         {%- if card_product.featured_media -%}
           <div class="card__media">
@@ -296,7 +296,7 @@
         </div>
   {%  render 'deal-snippet', product: card_product %}
          
-      </div> {% endcomment %}
+      </div>
 
       <div class="card__content img-without-content">
         <div class="card__information">
