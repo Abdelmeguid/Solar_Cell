@@ -17,7 +17,7 @@
     Usage:
     {% render 'card-product', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
-{%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}  
+  {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}  
 {%- if card_product and card_product != empty -%}
   {%- liquid
     assign ratio = 1
@@ -30,7 +30,7 @@
       assign ratio = 1
     endif
   -%}
-  <div class="card-wrapper ">
+  <div class="card-wrapper underline-links-hover">
     <div class="card
       card--{{ settings.card_style }}
       {% if card_product.featured_media %} card--media{% else %} card--text{% endif %}
@@ -44,7 +44,7 @@
         {%- if card_product.featured_media -%}
           <div class="card__media">
             
-            <div class="media media--transparent ">
+            <div class="media media--transparent media--hover-effect">
             
              <a href="{{ card_product.url }}">
            {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
@@ -369,7 +369,7 @@
     </div>      
   </div>
 {%- else -%}
-  <div class="card-wrapper ">
+  <div class="card-wrapper underline-links-hover">
     <div class="card
       card--{{ settings.card_style }}
       card--text
