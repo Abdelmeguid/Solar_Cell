@@ -91,7 +91,7 @@
         "button_link": "shopify:\/\/collections\/all",
         "button_style_secondary": true,
         "column_alignment": "center",
-        "collection": "frontpage",
+        "collection": "populaire-producten",
         "products_to_show": 12,
         "columns_desktop": 5,
         "show_view_all": true,
