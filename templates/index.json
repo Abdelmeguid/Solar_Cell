@@ -26,7 +26,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/2.webp",
-            "heading": "The path towards sustainable energy  will be efficient",
+            "heading": "De weg naar duurzame energie zal efficiënt zijn",
             "heading_size": "h1",
             "subheading": "",
             "text": "Augue ut lectus arcu bibendum at varius. Felis donec et odio pellentesque diam volutpat commodo sed egestas Leo vel fringilla",
@@ -44,6 +44,7 @@
         "6fad19bf-8162-411e-8e68-08a3bb22ca3f": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/slider-3.webp",
             "heading": "Bringing the power of the sun to new world",
             "heading_size": "h1",
             "subheading": "",
